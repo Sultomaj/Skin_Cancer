@@ -1,0 +1,17 @@
+{
+    "model_name": "ViT_B_16",
+    "final_val_loss": 15.2951,
+    "final_val_acc": 61.02,
+    "best_val_acc": 63.56,
+    "per_class_accuracy": {
+        "actinic keratosis": 50.0,
+        "basal cell carcinoma": 87.5,
+        "dermatofibroma": 68.75,
+        "melanoma": 25.0,
+        "nevus": 93.75,
+        "pigmented benign keratosis": 50.0,
+        "seborrheic keratosis": 33.33,
+        "squamous cell carcinoma": 50.0,
+        "vascular lesion": 100.0
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "model_name": "ResNet50_Sampler",
+    "final_val_loss": 1.277,
+    "final_val_acc": 65.25,
+    "best_val_acc": 65.25,
+    "per_class_accuracy": {
+        "actinic keratosis": 43.75,
+        "basal cell carcinoma": 100.0,
+        "dermatofibroma": 43.75,
+        "melanoma": 25.0,
+        "nevus": 100.0,
+        "pigmented benign keratosis": 75.0,
+        "seborrheic keratosis": 33.33,
+        "squamous cell carcinoma": 68.75,
+        "vascular lesion": 100.0
+    }
+}
