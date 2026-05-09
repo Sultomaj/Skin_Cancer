@@ -39,16 +39,6 @@ The final model utilized a **ResNet50 backbone + WeightedRandomSampler + Standar
 
 **Dataset Limitation Note:** Extensive algorithmic optimization proves that the current diagnostic ceiling (~65%) is strictly constrained by dataset volume. Future iterations require aggregating larger, multi-source ISIC datasets (e.g., ISIC 2020) to fully saturate the network's parameter space and push Melanoma recall to clinically safe levels.
 
----
-
-## 🚀 Interactive Deployment (Hugging Face)
-The model is deployed as an interactive Web Application built with Streamlit.
-
-**Clinical UI Features:**
-* **Strict Inference Pipeline:** Strips out random training augmentations (rotations/flips/crops) to guarantee deterministic, clinically accurate tensor inputs.
-* **Safety Thresholds:** Actively warns the user if diagnostic confidence drops below 50%.
-* **Medical Context Engine:** Integrates with the Wikipedia API to automatically fetch standardized clinical summaries of the predicted pathology.
-* **Visual Inspector:** Allows clinicians to apply real-time Canny Edge Detection and Grayscale contrast filters via OpenCV to manually inspect lesion borders.
 
 ---
 
