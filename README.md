@@ -7,7 +7,7 @@ The final deployed model is accessible via an interactive, clinically focused **
 
 ---
 
-## 🔬 The Ablation Study: Fighting "Lazy" Networks
+## The Study: Fighting "Lazy" Networks
 Medical datasets are notoriously imbalanced. In this dataset, benign Nevi drastically outnumber critical early-stage Melanomas. Early baseline models achieved artificially high overall accuracy by defaulting to predicting "Nevus" (majority class) while dangerously missing Melanomas. 
 
 To solve this, we systematically tested multiple architectures and objective functions:
